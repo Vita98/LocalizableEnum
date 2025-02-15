@@ -9,34 +9,19 @@
 Pod::Spec.new do |s|
   s.name             = 'LocalizableEnum'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LocalizableEnum.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Fast localization for enum based localization strings.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This Swift library offers a powerful and streamlined way to localize enum-based values using an approach inspired by Encoding and Decoding CodingKeys. It simplifies the process of mapping enums to localized strings, reducing boilerplate code and enhancing readability in your projects. By leveraging the power of enums and their type-safe structure, the library eliminates the need for fragile hardcoded keys or verbose localization logic. It provides a seamless API to link your enum cases directly to localized values, ensuring consistency and reducing the risk of mismatched or missing keys.
                        DESC
 
   s.homepage         = 'https://github.com/Vita98/LocalizableEnum'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Vita98' => 'vitandrea98@live.it' }
+  s.author           = { 'Vitandrea Sorino' => 'vitandrea98@icloud.it' }
   s.source           = { :git => 'https://github.com/Vita98/LocalizableEnum.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12'
 
-  s.source_files = 'LocalizableEnum/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'LocalizableEnum' => ['LocalizableEnum/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Classes/*'
+  s.swift_versions = '4'
 end

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  LocalizableEnum
+
+  Created by Vitandrea Sorino on 15/02/25.
+  Copyright © 2025 CocoaPods. All rights reserved.
+*/
+
+"car_string" = "Macchina";
+"motorbike_string" = "Motocicletta";
+"bike_string" = "Bici";

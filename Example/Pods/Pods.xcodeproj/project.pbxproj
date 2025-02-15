@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0121BB812D61153C007AD4A7 /* LocalizableEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121BB7E2D61153C007AD4A7 /* LocalizableEnum.swift */; };
+		0121BB822D61153C007AD4A7 /* LocalizableEnumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121BB7F2D61153C007AD4A7 /* LocalizableEnumManager.swift */; };
+		0121BB832D61153C007AD4A7 /* DefaultEnumLocalizationLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0121BB7D2D61153C007AD4A7 /* DefaultEnumLocalizationLogic.swift */; };
+		4E030FFFFAA7E8D6ACD95F208CFE7B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		4E3D945C1CDCBEA75874ECE08CD3424C /* LocalizableEnum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 346081F9A3E0CC0B6E07C56186CC3A88 /* LocalizableEnum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAE872632EF8B3D9035FECE7289565D /* LocalizableEnum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B823A1E69EFF53A2B29BF261CA9025D /* LocalizableEnum-dummy.m */; };
+		5747FD7FD4292CBA3CA6E2E2425CE359 /* Pods-LocalizableEnum_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC5782AD0A6F0725939814CD27D971E /* Pods-LocalizableEnum_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5977007CEA74839CBC76001CCD4FB422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7008FBA9F9F19FF00884A6342E76096E /* Pods-LocalizableEnum_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9225CB72AE9161359946BB1C18255BAA /* Pods-LocalizableEnum_Example-dummy.m */; };
+		905040CF81FB64678939D9CE040099E0 /* Pods-LocalizableEnum_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCFAC9C98E5E5DAA20937EDC2E4178B /* Pods-LocalizableEnum_Tests-dummy.m */; };
+		D0AF2900AFEEE177AB120629737C418E /* Pods-LocalizableEnum_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C370A4B6A0A918961ADC8252080901A /* Pods-LocalizableEnum_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F932DC575B11746444A4B647DAC343CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E466D9213F5C92567B8106E0182FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26653211E8E90BC44EF2244B544ECFDB;
+			remoteInfo = LocalizableEnum;
+		};
+		36ABB8AB47CA0F2B7ECC6B5030891239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7128D78462B0090F1FE609AF0274AF39;
+			remoteInfo = "Pods-LocalizableEnum_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0121BB7D2D61153C007AD4A7 /* DefaultEnumLocalizationLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultEnumLocalizationLogic.swift; sourceTree = "<group>"; };
+		0121BB7E2D61153C007AD4A7 /* LocalizableEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableEnum.swift; sourceTree = "<group>"; };
+		0121BB7F2D61153C007AD4A7 /* LocalizableEnumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableEnumManager.swift; sourceTree = "<group>"; };
+		0F612A680A5159CCB3E5BE775581BC57 /* LocalizableEnum-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalizableEnum-prefix.pch"; sourceTree = "<group>"; };
+		0FC5782AD0A6F0725939814CD27D971E /* Pods-LocalizableEnum_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalizableEnum_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1AF92A79A1860EF9EBF2491F6CEA4909 /* Pods-LocalizableEnum_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableEnum_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B823A1E69EFF53A2B29BF261CA9025D /* LocalizableEnum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalizableEnum-dummy.m"; sourceTree = "<group>"; };
+		346081F9A3E0CC0B6E07C56186CC3A88 /* LocalizableEnum-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalizableEnum-umbrella.h"; sourceTree = "<group>"; };
+		3461A7CBB4520E744CCBB0DF26D38296 /* Pods-LocalizableEnum_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalizableEnum_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		404E6AE582E51D17574C4AA8E0E47469 /* Pods-LocalizableEnum_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableEnum_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		432552E3AB69BD6C085872B2C05F285B /* LocalizableEnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LocalizableEnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D0502283ECD5943E72EE2C0EE09F3F /* Pods-LocalizableEnum_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableEnum_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		47230AEC6EC8556CA7CEA7DF66151754 /* LocalizableEnum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalizableEnum-Info.plist"; sourceTree = "<group>"; };
+		54DE85C7E641BCA43BF353BDEC477DFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		594CCE9C19D409CFB89C57C59F4395FD /* Pods-LocalizableEnum_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalizableEnum_Example.modulemap"; sourceTree = "<group>"; };
+		5997C852136677A84234E928ED6F16EE /* LocalizableEnum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalizableEnum.modulemap; sourceTree = "<group>"; };
+		5AC3EB57817BB766F9D89DBFA6D339D8 /* Pods-LocalizableEnum_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableEnum_Tests-Info.plist"; sourceTree = "<group>"; };
+		5C370A4B6A0A918961ADC8252080901A /* Pods-LocalizableEnum_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalizableEnum_Example-umbrella.h"; sourceTree = "<group>"; };
+		78D79BA4572E3D5FB6E112F59A0C67C4 /* Pods-LocalizableEnum_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalizableEnum_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7CCFAC9C98E5E5DAA20937EDC2E4178B /* Pods-LocalizableEnum_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalizableEnum_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C7C304DBA372998080F8516E89B7EAE /* LocalizableEnum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalizableEnum.debug.xcconfig; sourceTree = "<group>"; };
+		9225CB72AE9161359946BB1C18255BAA /* Pods-LocalizableEnum_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalizableEnum_Example-dummy.m"; sourceTree = "<group>"; };
+		9296B033D0B1A901814E12694D804E4B /* Pods-LocalizableEnum_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalizableEnum_Tests.modulemap"; sourceTree = "<group>"; };
+		957D01B8E3D3C6351AB448144D7665A4 /* Pods_LocalizableEnum_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizableEnum_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F21A6355AEE7FDCAC6E22B8ABB7159 /* LocalizableEnum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalizableEnum.release.xcconfig; sourceTree = "<group>"; };
+		98C4A737571F6ACBF26AB23B169C5F62 /* Pods-LocalizableEnum_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableEnum_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5C8ADAF4EA23D50E395554637385EF6 /* Pods-LocalizableEnum_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalizableEnum_Example-Info.plist"; sourceTree = "<group>"; };
+		C4405A14FE3BB9442728960B50F366DE /* Pods-LocalizableEnum_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableEnum_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C80231BA0E8A8961F44C47D60721EB03 /* Pods_LocalizableEnum_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizableEnum_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF124BB9D4969EE31D5C5060706F6047 /* Pods-LocalizableEnum_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalizableEnum_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF95662A4B1AAAFA4DFE091B78D8D483 /* LocalizableEnum.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LocalizableEnum.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE4B3EF68D9BC5442DA41D1FA8E5A2D2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FBE1A8B299FD3FF46BAB84B178984B57 /* Pods-LocalizableEnum_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalizableEnum_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144067F9E263658BD42220072B22C1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5977007CEA74839CBC76001CCD4FB422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C044B6C1FD8E7EB4B0794B0B790BA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F932DC575B11746444A4B647DAC343CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88C0837AB57764F7A54E77932C743D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E030FFFFAA7E8D6ACD95F208CFE7B59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0121BB802D61153C007AD4A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0121BB7D2D61153C007AD4A7 /* DefaultEnumLocalizationLogic.swift */,
+				0121BB7E2D61153C007AD4A7 /* LocalizableEnum.swift */,
+				0121BB7F2D61153C007AD4A7 /* LocalizableEnumManager.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48104B57AF83CAE40CE1E8FEE3810F58 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E896C0BECCCF60F758E9A8DDCE8B8 /* LocalizableEnum */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5ADF043D6DAE34784B8D41F12CAD52FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432552E3AB69BD6C085872B2C05F285B /* LocalizableEnum.framework */,
+				C80231BA0E8A8961F44C47D60721EB03 /* Pods_LocalizableEnum_Example.framework */,
+				957D01B8E3D3C6351AB448144D7665A4 /* Pods_LocalizableEnum_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607A80B488903EEBF66DA34F73EF2B9F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B3EF68D9BC5442DA41D1FA8E5A2D2 /* LICENSE */,
+				DF95662A4B1AAAFA4DFE091B78D8D483 /* LocalizableEnum.podspec */,
+				54DE85C7E641BCA43BF353BDEC477DFB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7E3E896C0BECCCF60F758E9A8DDCE8B8 /* LocalizableEnum */ = {
+			isa = PBXGroup;
+			children = (
+				0121BB802D61153C007AD4A7 /* Classes */,
+				607A80B488903EEBF66DA34F73EF2B9F /* Pod */,
+				D5FB04C710397FB3953F1129CE7F62B8 /* Support Files */,
+			);
+			name = LocalizableEnum;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C2F68B2E3067569CE959A7EDAE4DACF2 /* Pods-LocalizableEnum_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9296B033D0B1A901814E12694D804E4B /* Pods-LocalizableEnum_Tests.modulemap */,
+				3461A7CBB4520E744CCBB0DF26D38296 /* Pods-LocalizableEnum_Tests-acknowledgements.markdown */,
+				1AF92A79A1860EF9EBF2491F6CEA4909 /* Pods-LocalizableEnum_Tests-acknowledgements.plist */,
+				7CCFAC9C98E5E5DAA20937EDC2E4178B /* Pods-LocalizableEnum_Tests-dummy.m */,
+				5AC3EB57817BB766F9D89DBFA6D339D8 /* Pods-LocalizableEnum_Tests-Info.plist */,
+				0FC5782AD0A6F0725939814CD27D971E /* Pods-LocalizableEnum_Tests-umbrella.h */,
+				404E6AE582E51D17574C4AA8E0E47469 /* Pods-LocalizableEnum_Tests.debug.xcconfig */,
+				98C4A737571F6ACBF26AB23B169C5F62 /* Pods-LocalizableEnum_Tests.release.xcconfig */,
+			);
+			name = "Pods-LocalizableEnum_Tests";
+			path = "Target Support Files/Pods-LocalizableEnum_Tests";
+			sourceTree = "<group>";
+		};
+		C9246028AB97911D95662C4A35B89101 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52FF3CBD936AE10669A677409A5DDB5 /* Pods-LocalizableEnum_Example */,
+				C2F68B2E3067569CE959A7EDAE4DACF2 /* Pods-LocalizableEnum_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				48104B57AF83CAE40CE1E8FEE3810F58 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5ADF043D6DAE34784B8D41F12CAD52FE /* Products */,
+				C9246028AB97911D95662C4A35B89101 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5FB04C710397FB3953F1129CE7F62B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5997C852136677A84234E928ED6F16EE /* LocalizableEnum.modulemap */,
+				2B823A1E69EFF53A2B29BF261CA9025D /* LocalizableEnum-dummy.m */,
+				47230AEC6EC8556CA7CEA7DF66151754 /* LocalizableEnum-Info.plist */,
+				0F612A680A5159CCB3E5BE775581BC57 /* LocalizableEnum-prefix.pch */,
+				346081F9A3E0CC0B6E07C56186CC3A88 /* LocalizableEnum-umbrella.h */,
+				8C7C304DBA372998080F8516E89B7EAE /* LocalizableEnum.debug.xcconfig */,
+				95F21A6355AEE7FDCAC6E22B8ABB7159 /* LocalizableEnum.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocalizableEnum";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E52FF3CBD936AE10669A677409A5DDB5 /* Pods-LocalizableEnum_Example */ = {
+			isa = PBXGroup;
+			children = (
+				594CCE9C19D409CFB89C57C59F4395FD /* Pods-LocalizableEnum_Example.modulemap */,
+				FBE1A8B299FD3FF46BAB84B178984B57 /* Pods-LocalizableEnum_Example-acknowledgements.markdown */,
+				46D0502283ECD5943E72EE2C0EE09F3F /* Pods-LocalizableEnum_Example-acknowledgements.plist */,
+				9225CB72AE9161359946BB1C18255BAA /* Pods-LocalizableEnum_Example-dummy.m */,
+				78D79BA4572E3D5FB6E112F59A0C67C4 /* Pods-LocalizableEnum_Example-frameworks.sh */,
+				B5C8ADAF4EA23D50E395554637385EF6 /* Pods-LocalizableEnum_Example-Info.plist */,
+				5C370A4B6A0A918961ADC8252080901A /* Pods-LocalizableEnum_Example-umbrella.h */,
+				DF124BB9D4969EE31D5C5060706F6047 /* Pods-LocalizableEnum_Example.debug.xcconfig */,
+				C4405A14FE3BB9442728960B50F366DE /* Pods-LocalizableEnum_Example.release.xcconfig */,
+			);
+			name = "Pods-LocalizableEnum_Example";
+			path = "Target Support Files/Pods-LocalizableEnum_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77A713343FEFBE01D85A5235E7CBBB7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3D945C1CDCBEA75874ECE08CD3424C /* LocalizableEnum-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81A4489CB30D457E9B8B572AB2859FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5747FD7FD4292CBA3CA6E2E2425CE359 /* Pods-LocalizableEnum_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFF1570F7DD38C6D0C37DC8F0252387 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AF2900AFEEE177AB120629737C418E /* Pods-LocalizableEnum_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26653211E8E90BC44EF2244B544ECFDB /* LocalizableEnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEF98CCF8369B9313DBEB4203E38487 /* Build configuration list for PBXNativeTarget "LocalizableEnum" */;
+			buildPhases = (
+				77A713343FEFBE01D85A5235E7CBBB7B /* Headers */,
+				296835E0394292BD45CCBA7E33D94CE0 /* Sources */,
+				B88C0837AB57764F7A54E77932C743D8 /* Frameworks */,
+				1B694405C1E70EE15F68E308AE7FD959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizableEnum;
+			productName = LocalizableEnum;
+			productReference = 432552E3AB69BD6C085872B2C05F285B /* LocalizableEnum.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7128D78462B0090F1FE609AF0274AF39 /* Pods-LocalizableEnum_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD9331E90882273032C8BC7920C522A /* Build configuration list for PBXNativeTarget "Pods-LocalizableEnum_Example" */;
+			buildPhases = (
+				FCFF1570F7DD38C6D0C37DC8F0252387 /* Headers */,
+				1176404984798408224135E67C41F4B9 /* Sources */,
+				8C044B6C1FD8E7EB4B0794B0B790BA93 /* Frameworks */,
+				555D49D860C9506743F3A20B99EE0555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2213A647BA47BB63FC89C6C7750AFA1 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocalizableEnum_Example";
+			productName = Pods_LocalizableEnum_Example;
+			productReference = C80231BA0E8A8961F44C47D60721EB03 /* Pods_LocalizableEnum_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89C6C6EA3676A92F0F5DB7EC623F0E61 /* Pods-LocalizableEnum_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B41C3422F6E7F3B4D8A0CE9CAD2D254 /* Build configuration list for PBXNativeTarget "Pods-LocalizableEnum_Tests" */;
+			buildPhases = (
+				E81A4489CB30D457E9B8B572AB2859FD /* Headers */,
+				512B6241D24906FD66280C1C2A105C6B /* Sources */,
+				144067F9E263658BD42220072B22C1F0 /* Frameworks */,
+				4DA7BD611B02CFC8C987E486A6AAE4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3728E4C121FFC92FBE5951DEBC4A6944 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocalizableEnum_Tests";
+			productName = Pods_LocalizableEnum_Tests;
+			productReference = 957D01B8E3D3C6351AB448144D7665A4 /* Pods_LocalizableEnum_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					26653211E8E90BC44EF2244B544ECFDB = {
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5ADF043D6DAE34784B8D41F12CAD52FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26653211E8E90BC44EF2244B544ECFDB /* LocalizableEnum */,
+				7128D78462B0090F1FE609AF0274AF39 /* Pods-LocalizableEnum_Example */,
+				89C6C6EA3676A92F0F5DB7EC623F0E61 /* Pods-LocalizableEnum_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B694405C1E70EE15F68E308AE7FD959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA7BD611B02CFC8C987E486A6AAE4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555D49D860C9506743F3A20B99EE0555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1176404984798408224135E67C41F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7008FBA9F9F19FF00884A6342E76096E /* Pods-LocalizableEnum_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296835E0394292BD45CCBA7E33D94CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0121BB812D61153C007AD4A7 /* LocalizableEnum.swift in Sources */,
+				0121BB822D61153C007AD4A7 /* LocalizableEnumManager.swift in Sources */,
+				0121BB832D61153C007AD4A7 /* DefaultEnumLocalizationLogic.swift in Sources */,
+				4FAE872632EF8B3D9035FECE7289565D /* LocalizableEnum-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512B6241D24906FD66280C1C2A105C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905040CF81FB64678939D9CE040099E0 /* Pods-LocalizableEnum_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3728E4C121FFC92FBE5951DEBC4A6944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LocalizableEnum_Example";
+			target = 7128D78462B0090F1FE609AF0274AF39 /* Pods-LocalizableEnum_Example */;
+			targetProxy = 36ABB8AB47CA0F2B7ECC6B5030891239 /* PBXContainerItemProxy */;
+		};
+		C2213A647BA47BB63FC89C6C7750AFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocalizableEnum;
+			target = 26653211E8E90BC44EF2244B544ECFDB /* LocalizableEnum */;
+			targetProxy = 16E466D9213F5C92567B8106E0182FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15205F72BF9E3F7B2A12342542388534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4405A14FE3BB9442728960B50F366DE /* Pods-LocalizableEnum_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableEnum_Example/Pods-LocalizableEnum_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableEnum_Example/Pods-LocalizableEnum_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BD8D7259600B1F77B19A1D07D9254D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F21A6355AEE7FDCAC6E22B8ABB7159 /* LocalizableEnum.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableEnum/LocalizableEnum-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LocalizableEnum/LocalizableEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalizableEnum/LocalizableEnum.modulemap";
+				PRODUCT_MODULE_NAME = LocalizableEnum;
+				PRODUCT_NAME = LocalizableEnum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32F3E56D22E0EA4C7762AFB5EE63B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7C304DBA372998080F8516E89B7EAE /* LocalizableEnum.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LocalizableEnum/LocalizableEnum-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/LocalizableEnum/LocalizableEnum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LocalizableEnum/LocalizableEnum.modulemap";
+				PRODUCT_MODULE_NAME = LocalizableEnum;
+				PRODUCT_NAME = LocalizableEnum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77213B4D11046CE077D9D263B0B88C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C4A737571F6ACBF26AB23B169C5F62 /* Pods-LocalizableEnum_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableEnum_Tests/Pods-LocalizableEnum_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableEnum_Tests/Pods-LocalizableEnum_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB70532D3F904073BCE57260DEA7A16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF124BB9D4969EE31D5C5060706F6047 /* Pods-LocalizableEnum_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableEnum_Example/Pods-LocalizableEnum_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableEnum_Example/Pods-LocalizableEnum_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0572E70306E96BE243DC0B17ACCC10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404E6AE582E51D17574C4AA8E0E47469 /* Pods-LocalizableEnum_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalizableEnum_Tests/Pods-LocalizableEnum_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalizableEnum_Tests/Pods-LocalizableEnum_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B41C3422F6E7F3B4D8A0CE9CAD2D254 /* Build configuration list for PBXNativeTarget "Pods-LocalizableEnum_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0572E70306E96BE243DC0B17ACCC10B /* Debug */,
+				77213B4D11046CE077D9D263B0B88C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD9331E90882273032C8BC7920C522A /* Build configuration list for PBXNativeTarget "Pods-LocalizableEnum_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB70532D3F904073BCE57260DEA7A16F /* Debug */,
+				15205F72BF9E3F7B2A12342542388534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEF98CCF8369B9313DBEB4203E38487 /* Build configuration list for PBXNativeTarget "LocalizableEnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F3E56D22E0EA4C7762AFB5EE63B275 /* Debug */,
+				1BD8D7259600B1F77B19A1D07D9254D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

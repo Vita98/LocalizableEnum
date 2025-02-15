@@ -1,0 +1,6 @@
+framework module LocalizableEnum {
+  umbrella header "LocalizableEnum-umbrella.h"
+
+  export *
+  module * { export * }
+}

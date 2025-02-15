@@ -1,0 +1,22 @@
+{
+  "name": "LocalizableEnum",
+  "version": "0.1.0",
+  "summary": "A short description of LocalizableEnum.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Vita98/LocalizableEnum",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vita98": "vitandrea98@live.it"
+  },
+  "source": {
+    "git": "https://github.com/Vita98/LocalizableEnum.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LocalizableEnum/Classes/**/*"
+}

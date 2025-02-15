@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import LocalizableEnum
 
 class ViewController: UIViewController {
-
+    
+    //MARK: Outlet
+    @IBOutlet weak var carLabel: UILabel!
+    @IBOutlet weak var motorbikeLabel: UILabel!
+    @IBOutlet weak var bikeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+                
+        ///Usage with default localization logic
+        carLabel.text = VehicleType.car.localizedValue
+        motorbikeLabel.text = VehicleType.motorbike.localizedValue
+        
+        ///Usage with ad-hoc localization logic
+        bikeLabel.text = VehicleType.bike.getLocalizedValue(self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +32,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+}
+
+/// Ad-Hoc logic
+extension ViewController: EnumLocalizationLogic {
+    func localize(localizedKey: String?) -> String? {
+        guard let localizedKey = localizedKey else { return nil }
+        return NSLocalizedString(localizedKey , comment: "Generic comment") + " - From ad-hoc logic"
+    }
 }
 

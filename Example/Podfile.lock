@@ -1,0 +1,16 @@
+PODS:
+  - LocalizableEnum (0.1.0)
+
+DEPENDENCIES:
+  - LocalizableEnum (from `../`)
+
+EXTERNAL SOURCES:
+  LocalizableEnum:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LocalizableEnum: 2426302f2bbc1ffc1bf24df88eef2501eda8104e
+
+PODFILE CHECKSUM: 20872210d1096c76ae6e9fb18c8f46d50f11cd79
+
+COCOAPODS: 1.16.2

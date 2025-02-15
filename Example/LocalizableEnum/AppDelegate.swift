@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalizableEnum
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Setting the default localization logic
+        LocalizableEnumManager.shared.defaultLogic = CustomEnumLocalizationLogic()
+        
         return true
     }
 
