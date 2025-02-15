@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Vita98/LocalizableEnum.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12'
+  s.macos.deployment_target = "10.13"
+  s.watchos.deployment_target = "8.0"
 
   s.source_files = 'Classes/*'
   s.swift_versions = '4'
