@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocalizableEnum'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Fast localization for enum based localization strings.'
 
   s.description      = <<-DESC
