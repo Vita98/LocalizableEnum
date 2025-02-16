@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "8.0"
 
   s.source_files = 'Classes/*'
-  s.swift_versions = '4'
+  s.swift_versions = '5'
 end
